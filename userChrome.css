@@ -1,0 +1,95 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul),
+			url(chrome://browser/content/browser.xhtml);
+/* ...for compatibility*/
+
+/* tabs */
+
+#urlbar,
+
+.searchbar-textbox,
+
+#TabsToolbar,
+
+#TabsToolbar .tab-background-start,
+
+#TabsToolbar .tab-background-end,
+
+#TabsToolbar .tab-background-start[selected=true]:after,
+
+#TabsToolbar .tab-background-start[selected=true]:before,
+
+#TabsToolbar .tab-background-end[selected=true]:after,
+
+#TabsToolbar .tab-background-end[selected=true]:before,
+
+#TabsToolbar .tabbrowser-tabs{
+	height: 23px !important
+  min-height: 23px !important
+  margin-bottom: 2px!important
+
+}
+
+
+
+/* navigation bar */
+
+#navigator-toolbox #nav-bar .toolbarbutton-1:not(:-moz-any(#back-button, #forward-button)){
+
+  margin-top: -9px !important;
+
+  margin-bottom: -9px !important
+
+}
+
+
+#navigator-toolbox > #nav-bar #back-button .toolbarbutton-icon {
+
+  padding: 6px !important
+
+}
+
+
+#navigator-toolbox #back-button{
+
+  margin: -7px 1px !important
+
+}
+
+
+#navigator-toolbox > #nav-bar .toolbarbutton-1:not(#back-button):not(#forward-button) {
+
+  padding-left: 1px !important;
+
+  padding-right: 1px !important
+
+}
+
+
+#navigator-toolbox > #nav-bar .toolbarbutton-1 {
+
+  padding-left: 0px !important;
+
+  padding-right: 0px !important
+
+}
+
+
+
+/* urlbar */
+
+#urlbar, .searchbar-textbox {
+
+  border: 1px solid;
+
+  border-top: none;
+
+  border-bottom: none
+
+}
+
+
+#urlbar-container {
+
+margin: -2px !important
+
+}
